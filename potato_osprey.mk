@@ -17,7 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from osprey device
-$(call inherit-product, device/motorola/osprey/full_osprey.mk)
+$(call inherit-product, device/motorola/osprey/device.mk)
 
 # Inherit some common Potato stuff.
 BOARD_USES_QCOM_HARDWARE := true

@@ -55,5 +55,12 @@ PRODUCT_PACKAGES += \
     sensors.msm8916 \
     sensorhub.msm8916
 
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common_system
+
+PRODUCT_BOOT_JARS += \
+    ims-ext-common_system
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/osprey/osprey-vendor.mk)
